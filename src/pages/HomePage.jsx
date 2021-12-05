@@ -9,14 +9,14 @@ export default function HomePage() {
     <div>
       <div>
         <Link to="/BeerList">
-          <img src={AllBeersImg} alt="noimage" />
+          <img src={AllBeersImg} alt="All Beers" />
         </Link>
         <h1>All Beers</h1>
         <p>Lorem ipsum y su madre</p>
       </div>
       <div>
         <Link to="/RandomBeer">
-          <img src={RandomBeerImg} alt="noimage" />
+          <img src={RandomBeerImg} alt="Random Beer" />
         </Link>
 
         <h1>Random Beer</h1>
@@ -24,7 +24,7 @@ export default function HomePage() {
       </div>
       <div>
         <Link to="/NewBeer">
-          <img src={NewBeerImg} alt="noimage" />
+          <img src={NewBeerImg} alt="New Beer" />
         </Link>
         <h1>New Beer</h1>
         <p>Lorem ipsum y su madre</p>
